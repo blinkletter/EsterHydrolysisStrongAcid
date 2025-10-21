@@ -2,9 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: start
 chapters:
-- file: notebooks/ParameterizedModels.ipynb
 - file: notebooks
 - file: markdown-notebooks
 
