@@ -1,0 +1,14 @@
+Created Oct 21 2025
+Created folder 'EsterHydrolysisStrongAcid' in GitHub
+Made it a repository using GitHub Desktop.
+Then used VSCode to edit .gitignore to add .DS_Store and other file names to ignore for updating.
+
+Created starter book with 'jupyter book create book
+This created the folder 'book' with starter files.
+Then I used GitHub Desktop to create a repository with this folder. 
+Created .nojekyll file using 'touch .nojekyll' command
+
+Will eventually publish this using GitHub Pages. here ius some helpful info
+https://til.simonwillison.net/github/github-pages
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
