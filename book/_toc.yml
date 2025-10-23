@@ -4,6 +4,5 @@
 format: jb-book
 root: start
 chapters:
-- file: notebooks
-- file: markdown-notebooks
-
+- file: 01_Yates1967
+- file: 02_interpolating
