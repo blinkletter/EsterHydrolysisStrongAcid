@@ -1,0 +1,1404 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Extracting MeOAc Data &#8212; Ester Hydrolysis under Strong Acid Catalysis</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tufte.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks/03_Yates-MeOAc-Data';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../start.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/PhysOrg.png" class="logo__image only-light" alt="Ester Hydrolysis under Strong Acid Catalysis - Home"/>
+    <script>document.write(`<img src="../_static/PhysOrg.png" class="logo__image only-dark" alt="Ester Hydrolysis under Strong Acid Catalysis - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../start.html">
+                    Extreme Ester Hydrolysis
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01_Yates1967.html">Discussion of Yates &amp; McClellan, 1967</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_interpolating.html">Interpolating Literature Data Sets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03_DataQuest.html">Searching For Data</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/blinkletter/EsterHydrolysisStrongAcid" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/notebooks/03_Yates-MeOAc-Data.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Extracting MeOAc Data</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-digitize-plot">Step 1: Digitize Plot.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-data">Comparing Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibliography">Bibliography</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="extracting-meoac-data">
+<h1>Extracting MeOAc Data<a class="headerlink" href="#extracting-meoac-data" title="Permalink to this heading">#</a></h1>
+<p>In Yates &amp; McClellane, 1967 there are reported values for rate vs [H2SO4] in extreme acid mixtures for hydrolysis of esters. The MeOAc data set is incomplete. The highest acidity results are not reported in the table biut are shown on the plot (Fig 1 and 3 in the paper). To be able to reproduce the plot of Figure 1, I need to get that data.</p>
+<p>“Mechanisms of ester hydrolysis in aqueous sulfuric acids.” Keith Yates and Robert A. McClelland, <em>J. Am. Chem. Soc.</em>, <strong>1967</strong>, <em>89</em>, 2686-2692. <a class="reference external" href="https://doi.org/10.1021/ja00987a033">https://doi.org/10.1021/ja00987a033</a></p>
+<section id="step-1-digitize-plot">
+<h2>Step 1: Digitize Plot.<a class="headerlink" href="#step-1-digitize-plot" title="Permalink to this heading">#</a></h2>
+<p>I used WebPlotDigitizer to extract the data. Figure 3 had the best resolution and separation of data points for MeOAc but required conversion of the results.</p>
+<p>First we will digitize the results from Fig 1.</p>
+<img alt="../_images/Yates-McClelland-1967-F1.png" src="../_images/Yates-McClelland-1967-F1.png" />
+</section>
+<section id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this heading">#</a></h2>
+<p>the code below will setup libraries and variables</p>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show code cell source</span>
+<span class="expanded">Hide code cell source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">##############################################################</span>
+<span class="c1">### Set up libraries and global variables</span>
+<span class="c1">##############################################################</span>
+ 
+<span class="kn">import</span> <span class="nn">interpolators</span>   <span class="c1">### import the following functions from local library</span>
+<span class="c1"># interpolators.MakeInterpolationFunctionForH0inH2SO4byPercentWt()</span>
+<span class="c1"># interpolators.MakeInterpolationFunctionForH2OActivityinH2SO4byMoleFraction()</span>
+<span class="c1"># interpolators.MakeInterpolationFunctionForH2OActivityinH2SO4byPercentWt()</span>
+<span class="c1"># interpolators.MakeInterpolationFunctionForDensityofH2SO4byPercentWt()</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">chained_assignment</span> <span class="o">=</span> <span class="kc">None</span>    <span class="c1"># no warning message and no exception is raised</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">scipy.stats</span> <span class="k">as</span> <span class="nn">stats</span>
+<span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">curve_fit</span>
+<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">linregress</span>
+<span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">minimize</span>
+<span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">minimize_scalar</span>
+
+
+<span class="kn">from</span> <span class="nn">statsmodels.nonparametric.smoothers_lowess</span> <span class="kn">import</span> <span class="n">lowess</span>     <span class="c1"># A function for interpolating a plot using the locally weighed scatterplot smoothing method. Returns smoothed x,y points</span>
+<span class="kn">from</span> <span class="nn">scipy.interpolate</span> <span class="kn">import</span> <span class="n">CubicSpline</span>                         <span class="c1"># A function for interpolating a plot using the cubic spline method. Returns an interpolation function.</span>
+<span class="kn">from</span> <span class="nn">scipy.interpolate</span> <span class="kn">import</span> <span class="n">interp1d</span>                            <span class="c1"># A function for interpolating a plot using the connect-the-dots method. Returns an interpolation function.</span>
+<span class="kn">from</span> <span class="nn">scipy.interpolate</span> <span class="kn">import</span> <span class="n">make_smoothing_spline</span>               <span class="c1"># A function for interpolating a plot using a Bspline algorithm. Returns an interpolation function.</span>
+
+<span class="kn">from</span> <span class="nn">matplotlib.patches</span> <span class="kn">import</span> <span class="n">PathPatch</span>
+<span class="kn">from</span> <span class="nn">matplotlib.path</span> <span class="kn">import</span> <span class="n">Path</span>
+
+
+<span class="c1">#github_location = &quot;https://raw.githubusercontent.com/blinkletter/4410PythonNotebooks/main/Class_30/data/&quot;</span>
+<span class="n">github_location</span> <span class="o">=</span> <span class="s2">&quot;./data/&quot;</span>
+<span class="n">github_H0_location</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/blinkletter/4410PythonNotebooks/main/Class_08/data/H0_data/&quot;</span>
+<span class="n">github_location_styles</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/blinkletter/LFER-QSAR/main/styles/&quot;</span>
+<span class="n">github_location_styles</span> <span class="o">=</span> <span class="s2">&quot;./styles/&quot;</span>
+<span class="n">github_location_LFER_tables</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/blinkletter/LFER-QSAR/main/data/&quot;</span>
+
+<span class="n">molwtH2SO4</span> <span class="o">=</span> <span class="mf">98.08</span>
+<span class="n">molwtH2O</span> <span class="o">=</span> <span class="mf">18.0</span>
+<span class="n">densityH2SO4</span> <span class="o">=</span> <span class="mf">1.83</span>
+<span class="n">densityH2O</span> <span class="o">=</span> <span class="mf">1.000</span>
+</pre></div>
+</div>
+</div>
+</details>
+</div>
+</section>
+<section id="comparing-data">
+<h2>Comparing Data<a class="headerlink" href="#comparing-data" title="Permalink to this heading">#</a></h2>
+<p>Below we will plot the data for rate vs %H2SO4 for the data from table 1 of the paper</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">###################################################</span>
+<span class="c1">### Import the data and perform calculations</span>
+<span class="c1">###################################################</span>
+
+<span class="n">Data_File_Name</span> <span class="o">=</span> <span class="s2">&quot;Yates_Figure1_Digitized.csv&quot;</span>
+<span class="c1">#Data_File_Name = &quot;Yates_Figure1_Digitized2.csv&quot;</span>
+<span class="n">Filename</span> <span class="o">=</span> <span class="n">github_location</span> <span class="o">+</span> <span class="n">Data_File_Name</span>
+
+<span class="n">df_digitized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">Filename</span><span class="p">,</span> 
+                 <span class="n">delimiter</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span><span class="p">,</span> 
+                 <span class="n">skipinitialspace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+<span class="c1">#                 index_col=&quot;Substituent&quot;, </span>
+                 <span class="n">comment</span> <span class="o">=</span> <span class="s2">&quot;#&quot;</span><span class="p">)</span> 
+
+<span class="c1">#print(&quot;Data from digitized Figure 1\n&quot;)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_digitized</span><span class="p">)</span>
+
+<span class="c1">###################################################</span>
+
+<span class="n">Data_File_Name</span> <span class="o">=</span> <span class="s2">&quot;Yates_Table1.csv&quot;</span>
+<span class="n">Filename</span> <span class="o">=</span> <span class="n">github_location</span> <span class="o">+</span> <span class="n">Data_File_Name</span>
+
+<span class="n">df_table1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">Filename</span><span class="p">,</span> 
+                 <span class="n">delimiter</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span><span class="p">,</span> 
+                 <span class="n">skipinitialspace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+<span class="c1">#                 index_col=&quot;Substituent&quot;, </span>
+                 <span class="n">comment</span> <span class="o">=</span> <span class="s2">&quot;#&quot;</span><span class="p">)</span> 
+<span class="n">df_table1</span> <span class="o">=</span> <span class="p">(</span><span class="n">df_table1</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df_table1</span><span class="p">[</span><span class="s1">&#39;Ester&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;MeOAc&#39;</span><span class="p">])</span>   <span class="c1">### Select only the MeOAc data</span>
+<span class="n">df_table1</span> <span class="o">=</span> <span class="n">df_table1</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span>               <span class="c1">### Remove last three rows which are digitized data from figure 3</span>
+<span class="n">df_table1</span> <span class="o">=</span> <span class="n">df_table1</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>  <span class="c1">### Reset the index so its sequential after removing rows</span>
+
+<span class="c1">#print(&quot;Data from Table 1&quot;)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_table1</span><span class="p">)</span>
+
+<span class="c1">###################################################</span>
+<span class="c1">### MAKE PLOT</span>
+<span class="c1">###################################################</span>
+
+<span class="c1">###################################################</span>
+<span class="c1">### Create figure for plot</span>
+<span class="c1">###################################################</span>
+
+<span class="n">style</span> <span class="o">=</span> <span class="s2">&quot;tufte.mplstyle&quot;</span>
+<span class="c1">#style = &quot;S2_classic2.mplstyle&quot;</span>
+<span class="n">style_name</span> <span class="o">=</span> <span class="n">github_location_styles</span> <span class="o">+</span> <span class="n">style</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="n">style_name</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">nrows</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ncols</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>  
+<span class="c1">#ax2 = ax.twinx()</span>
+
+<span class="c1">###################################################</span>
+<span class="c1">### Set up labels</span>
+<span class="c1">###################################################</span>
+
+<span class="n">y_label</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;$10^2\ k_</span><span class="si">{obs}</span><span class="s2">$&quot;</span>
+<span class="n">x_label</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;$\%\ H_2SO_4$&quot;</span>
+
+
+<span class="c1">###################################################</span>
+<span class="c1">### RATE vs ACIDITY Plot</span>
+<span class="c1">###################################################</span>
+
+<span class="k">if</span> <span class="kc">True</span><span class="p">:</span>                  <span class="c1"># Set up axes for main plot</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">ylabel</span><span class="o">=</span><span class="n">y_label</span><span class="p">,</span> <span class="n">xlabel</span><span class="o">=</span><span class="n">x_label</span><span class="p">,</span>
+           <span class="n">xlim</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="mi">105</span><span class="p">],</span>
+           <span class="n">ylim</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">15</span><span class="p">]</span>
+           <span class="p">)</span>
+<span class="c1"># Data points for kobs vs Acidity</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">df_digitized</span><span class="p">[</span><span class="s2">&quot;%H2SO4&quot;</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df_digitized</span><span class="p">[</span><span class="s2">&quot;10^2kobs&quot;</span><span class="p">]</span><span class="c1">#/(10**2)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> 
+          <span class="n">marker</span> <span class="o">=</span> <span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="mi">30</span><span class="p">,</span> 
+          <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;white&quot;</span><span class="p">,</span> <span class="n">edgecolors</span> <span class="o">=</span> <span class="s2">&quot;red&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> 
+          <span class="n">zorder</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span>           <span class="c1"># White circle behind each data point </span>
+          <span class="n">marker</span> <span class="o">=</span> <span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="mi">90</span><span class="p">,</span> 
+          <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;white&quot;</span><span class="p">,</span> 
+          <span class="n">zorder</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># Data points for kobs vs Acidity</span>
+<span class="n">x1</span> <span class="o">=</span> <span class="n">df_table1</span><span class="p">[</span><span class="s2">&quot;%H2SO4&quot;</span><span class="p">]</span>
+<span class="n">y1</span> <span class="o">=</span> <span class="n">df_table1</span><span class="p">[</span><span class="s2">&quot;kobs&quot;</span><span class="p">]</span><span class="c1">#/(10**2)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> 
+          <span class="n">marker</span> <span class="o">=</span> <span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="mi">30</span><span class="p">,</span> 
+          <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;white&quot;</span><span class="p">,</span> <span class="n">edgecolors</span> <span class="o">=</span> <span class="s2">&quot;black&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> 
+          <span class="n">zorder</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span>           <span class="c1"># White circle behind each data point </span>
+          <span class="n">marker</span> <span class="o">=</span> <span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="mi">90</span><span class="p">,</span> 
+          <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;white&quot;</span><span class="p">,</span> 
+          <span class="n">zorder</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+<span class="k">if</span> <span class="kc">False</span><span class="p">:</span>                       <span class="c1"># Data points for kobs vs Acidity</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">linregress</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+    <span class="n">y_line</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">slope</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">a</span><span class="o">.</span><span class="n">intercept</span>
+
+    <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y_line</span><span class="p">,</span>    <span class="c1"># Plot line fit</span>
+            <span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;black&quot;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> 
+            <span class="n">zorder</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;plots/03_F02_plot1.pdf&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>%H2SO4</th>
+      <th>10^2kobs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>14.48</td>
+      <td>1.52</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>20.98</td>
+      <td>2.65</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>28.49</td>
+      <td>4.23</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>35.01</td>
+      <td>6.40</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>40.91</td>
+      <td>8.15</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>45.82</td>
+      <td>10.37</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>55.79</td>
+      <td>13.30</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>60.65</td>
+      <td>13.81</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>65.45</td>
+      <td>11.92</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>70.99</td>
+      <td>7.25</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>74.53</td>
+      <td>3.57</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>80.33</td>
+      <td>0.91</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>90.02</td>
+      <td>0.72</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>95.69</td>
+      <td>1.38</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>99.13</td>
+      <td>1.44</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Ester</th>
+      <th>%H2SO4</th>
+      <th>kobs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>MeOAc</td>
+      <td>14.1</td>
+      <td>1.500</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>MeOAc</td>
+      <td>20.7</td>
+      <td>2.610</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>MeOAc</td>
+      <td>28.3</td>
+      <td>4.220</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>MeOAc</td>
+      <td>34.8</td>
+      <td>6.410</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>MeOAc</td>
+      <td>40.4</td>
+      <td>8.140</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>MeOAc</td>
+      <td>45.4</td>
+      <td>10.400</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>MeOAc</td>
+      <td>50.2</td>
+      <td>11.400</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>MeOAc</td>
+      <td>55.2</td>
+      <td>13.300</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>MeOAc</td>
+      <td>60.4</td>
+      <td>13.800</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>MeOAc</td>
+      <td>65.2</td>
+      <td>11.900</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>MeOAc</td>
+      <td>70.4</td>
+      <td>7.250</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>MeOAc</td>
+      <td>74.1</td>
+      <td>3.830</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>MeOAc</td>
+      <td>80.0</td>
+      <td>0.931</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><img alt="../_images/34d056f9d712b9111875a088b83e6c2fed50975bb4342d13d671801df87e9bb6.png" src="../_images/34d056f9d712b9111875a088b83e6c2fed50975bb4342d13d671801df87e9bb6.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Delta Plot</span>
+<span class="c1">#x1d = x1</span>
+<span class="c1">#y1d = y1</span>
+<span class="n">x1d</span> <span class="o">=</span> <span class="n">x1</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># Drop a point that is not included in both sets of data</span>
+<span class="n">y1d</span> <span class="o">=</span> <span class="n">y1</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">xd</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># drop the last three points that are not included in both sets of data</span>
+<span class="n">yd</span> <span class="o">=</span> <span class="n">y</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">dX</span> <span class="o">=</span> <span class="n">xd</span><span class="o">-</span><span class="n">x1d</span>
+<span class="n">dY</span> <span class="o">=</span> <span class="n">yd</span><span class="o">-</span><span class="n">y1d</span>  
+
+<span class="n">ave_dX</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">dX</span><span class="p">)</span>
+<span class="n">ave_dY</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">dY</span><span class="p">)</span>
+
+<span class="c1">###################################################</span>
+<span class="c1">### MAKE PLOT</span>
+<span class="c1">###################################################</span>
+
+<span class="c1">###################################################</span>
+<span class="c1">### Create figure for plot</span>
+<span class="c1">###################################################</span>
+
+<span class="n">style</span> <span class="o">=</span> <span class="s2">&quot;tufte.mplstyle&quot;</span>
+<span class="c1">#style = &quot;S2_classic2.mplstyle&quot;</span>
+<span class="n">style_name</span> <span class="o">=</span> <span class="n">github_location_styles</span> <span class="o">+</span> <span class="n">style</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="n">style_name</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">nrows</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ncols</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>  
+<span class="c1">#ax2 = ax.twinx()</span>
+
+<span class="c1">###################################################</span>
+<span class="c1">### Set up labels</span>
+<span class="c1">###################################################</span>
+
+<span class="n">y_label</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;$\Delta\; 10^2\;k_</span><span class="si">{obs}</span><span class="s2">$&quot;</span>
+<span class="n">x_label</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;$\Delta\; \%H_2SO_4$&quot;</span>
+
+
+<span class="c1">###################################################</span>
+<span class="c1">### RATE vs ACIDITY Plot</span>
+<span class="c1">###################################################</span>
+
+<span class="c1"># Set up axes for main plot</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">ylabel</span><span class="o">=</span><span class="n">y_label</span><span class="p">,</span> <span class="n">xlabel</span><span class="o">=</span><span class="n">x_label</span><span class="p">,</span>
+        <span class="n">xlim</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mf">1.2</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span>
+        <span class="n">ylim</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mf">0.33</span> <span class="p">,</span><span class="mf">0.2</span><span class="p">]</span>
+        <span class="p">)</span>
+<span class="c1"># Data points for kobs vs Acidity</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">dX</span><span class="p">,</span> <span class="n">dY</span><span class="p">,</span> 
+          <span class="n">marker</span> <span class="o">=</span> <span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="mi">30</span><span class="p">,</span> 
+          <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;white&quot;</span><span class="p">,</span> <span class="n">edgecolors</span> <span class="o">=</span> <span class="s2">&quot;black&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> 
+          <span class="n">zorder</span> <span class="o">=</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">dX</span><span class="p">,</span> <span class="n">dY</span><span class="p">,</span>           <span class="c1"># White circle behind each data point </span>
+          <span class="n">marker</span> <span class="o">=</span> <span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">s</span> <span class="o">=</span> <span class="mi">90</span><span class="p">,</span> 
+          <span class="n">color</span> <span class="o">=</span> <span class="s2">&quot;white&quot;</span><span class="p">,</span> 
+          <span class="n">zorder</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">hlines</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">vlines</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mf">.3</span><span class="p">,</span><span class="mf">.2</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">vlines</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">dX</span><span class="p">),</span><span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">dY</span><span class="p">)</span><span class="o">-</span><span class="mf">0.03</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">dY</span><span class="p">)</span><span class="o">+</span><span class="mf">0.03</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+
+<span class="n">dY_no_min</span> <span class="o">=</span> <span class="n">dY</span><span class="p">[</span><span class="n">dY</span> <span class="o">!=</span> <span class="n">dY</span><span class="o">.</span><span class="n">min</span><span class="p">()]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># remove outlier from y values</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">hlines</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">dY_no_min</span><span class="p">),</span><span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">dX</span><span class="p">)</span><span class="o">-</span><span class="mf">0.3</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">dX</span><span class="p">)</span><span class="o">+</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Mean x deviation is </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">dX</span><span class="p">)</span><span class="si">:</span><span class="s2">0.3f</span><span class="si">}</span><span class="s2"> +/- </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">dX</span><span class="p">)</span><span class="si">:</span><span class="s2">0.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Mean y deviation is </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">dY_no_min</span><span class="p">)</span><span class="si">:</span><span class="s2">0.3f</span><span class="si">}</span><span class="s2"> +/i </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">dY_no_min</span><span class="p">)</span><span class="si">:</span><span class="s2">0.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">dX</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;plots/03_F03_plot2.pdf&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">dY</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Mean x deviation is 0.369 +/- 0.135
+Mean y deviation is 0.004 +/i 0.019
+</pre></div>
+</div>
+<img alt="../_images/dc7b4b337c8abaf7febb5a5a9ce702e26523a551f4fadf080a83425ce5ac78ae.png" src="../_images/dc7b4b337c8abaf7febb5a5a9ce702e26523a551f4fadf080a83425ce5ac78ae.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0     0.020
+1     0.040
+2     0.010
+3    -0.010
+4     0.010
+5    -0.030
+6     0.000
+7     0.010
+8     0.020
+9     0.000
+10   -0.260
+11   -0.021
+dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dY_no_min</span> <span class="o">=</span> <span class="n">dY</span><span class="p">[</span><span class="n">dY</span> <span class="o">!=</span> <span class="n">dY</span><span class="o">.</span><span class="n">min</span><span class="p">()]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dY_no_min</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_table1a</span> <span class="o">=</span> <span class="n">df_table1</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df_table1a</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Ester</th>
+      <th>%H2SO4</th>
+      <th>10^2kobs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>MeOAc</td>
+      <td>14.1</td>
+      <td>1.50</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>MeOAc</td>
+      <td>20.7</td>
+      <td>2.61</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>MeOAc</td>
+      <td>28.3</td>
+      <td>4.22</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>MeOAc</td>
+      <td>34.8</td>
+      <td>6.41</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>MeOAc</td>
+      <td>40.4</td>
+      <td>8.14</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>MeOAc</td>
+      <td>45.4</td>
+      <td>10.40</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>MeOAc</td>
+      <td>50.2</td>
+      <td>11.40</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>MeOAc</td>
+      <td>55.2</td>
+      <td>13.30</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>MeOAc</td>
+      <td>60.4</td>
+      <td>13.80</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>MeOAc</td>
+      <td>65.2</td>
+      <td>11.90</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+<section id="bibliography">
+<h2>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this heading">#</a></h2>
+<p>“Mechanisms of ester hydrolysis in aqueous sulfuric acids.” Keith Yates and Robert A. McClelland, <em>J. Am. Chem. Soc.</em>, <strong>1967</strong>, <em>89</em>, 2686-2692. <a class="reference external" href="https://doi.org/10.1021/ja00987a033">https://doi.org/10.1021/ja00987a033</a></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">##############################################################</span>
+<span class="c1">### DATAFRAME for ESTER HYDROLYSIS KINETIC DATA</span>
+<span class="c1">##############################################################</span>
+
+<span class="c1">##############################################################</span>
+<span class="c1">### Import the data and perform calculations</span>
+<span class="c1">##############################################################</span>
+
+<span class="n">Data_File_Name</span> <span class="o">=</span> <span class="s2">&quot;Yates_Table1.csv&quot;</span>
+
+<span class="n">Filename</span> <span class="o">=</span> <span class="n">github_location</span> <span class="o">+</span> <span class="n">Data_File_Name</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">Filename</span><span class="p">,</span> 
+                 <span class="n">delimiter</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span><span class="p">,</span> 
+                 <span class="n">skipinitialspace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+<span class="c1">#                 index_col=&quot;Substituent&quot;, </span>
+                 <span class="n">comment</span> <span class="o">=</span> <span class="s2">&quot;#&quot;</span><span class="p">)</span> 
+<span class="c1">#display(df)</span>
+
+<span class="n">df1</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ester&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;MeOAc&#39;</span><span class="p">])</span>   <span class="c1">### Select only the MeOAc data</span>
+<span class="c1">#df1 = (df1.loc[0:11])   ### Select only the given lines</span>
+
+<span class="c1">##############################################################</span>
+<span class="c1">### Perform calculations</span>
+<span class="c1">##############################################################</span>
+
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;kobs&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s2">&quot;kobs&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">1E-2</span> <span class="o">*</span> <span class="mi">60</span>    <span class="c1"># convert from 10^-2 min^-1 to s^-1</span>
+<span class="c1">#df1[&quot;kobs&quot;] = df1[&quot;kobs&quot;]</span>
+
+<span class="n">PercentH2SO4</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s2">&quot;%H2SO4&quot;</span><span class="p">]</span>
+<span class="n">molesH2SO4</span> <span class="o">=</span> <span class="n">PercentH2SO4</span> <span class="o">/</span> <span class="n">molwtH2SO4</span>
+<span class="n">PercentH2O</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">-</span> <span class="n">PercentH2SO4</span>
+<span class="n">molesH2O</span> <span class="o">=</span> <span class="n">PercentH2O</span> <span class="o">/</span> <span class="n">molwtH2O</span>
+<span class="n">total_moles</span> <span class="o">=</span> <span class="n">molesH2SO4</span> <span class="o">+</span> <span class="n">molesH2O</span>
+<span class="n">mole_fraction_H2SO4</span> <span class="o">=</span> <span class="n">molesH2SO4</span> <span class="o">/</span> <span class="n">total_moles</span>
+
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;X_H2SO4&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mole_fraction_H2SO4</span>
+
+<span class="n">interpolatorH0</span> <span class="o">=</span> <span class="n">interpolators</span><span class="o">.</span><span class="n">MakeInterpolationFunctionForH0inH2SO4byPercentWt</span><span class="p">()</span>
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;H0&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">interpolatorH0</span><span class="p">(</span><span class="n">PercentH2SO4</span><span class="p">)</span>
+
+<span class="n">m</span> <span class="o">=</span> <span class="mf">0.62</span>
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;HS&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s2">&quot;H0&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">m</span>
+
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;log_k_obs&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s2">&quot;kobs&quot;</span><span class="p">])</span>
+
+<span class="n">interpolator_aH2O</span> <span class="o">=</span> <span class="n">interpolators</span><span class="o">.</span><span class="n">MakeInterpolationFunctionForH2OActivityinH2SO4byPercentWt</span><span class="p">()</span>
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;aH2O&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">interpolator_aH2O</span><span class="p">(</span><span class="n">PercentH2SO4</span><span class="p">)</span>
+
+<span class="n">interpolator_density</span> <span class="o">=</span> <span class="n">interpolators</span><span class="o">.</span><span class="n">MakeInterpolationFunctionForDensityofH2SO4byPercentWt</span><span class="p">()</span>
+<span class="n">density</span> <span class="o">=</span> <span class="n">interpolator_density</span><span class="p">(</span><span class="n">PercentH2SO4</span><span class="p">)</span>
+
+<span class="n">volume</span> <span class="o">=</span> <span class="mi">1000</span>
+<span class="n">gramsH2O</span> <span class="o">=</span> <span class="n">volume</span> <span class="o">*</span> <span class="n">density</span> <span class="o">*</span> <span class="n">PercentH2O</span><span class="o">/</span><span class="mi">100</span>
+<span class="n">molesH2O</span> <span class="o">=</span> <span class="n">gramsH2O</span> <span class="o">/</span> <span class="n">molwtH2O</span>    <span class="c1"># per liter</span>
+
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;Molar_H2O&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">molesH2O</span>
+<span class="n">X_H2O</span> <span class="o">=</span> <span class="mi">1</span><span class="o">-</span><span class="n">df1</span><span class="p">[</span><span class="s2">&quot;X_H2SO4&quot;</span><span class="p">]</span>          <span class="c1"># mole fraction H2O in H2SO4</span>
+<span class="n">gamma_H2O</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s2">&quot;aH2O&quot;</span><span class="p">]</span><span class="o">/</span><span class="p">(</span><span class="n">X_H2O</span><span class="p">)</span>   <span class="c1"># activity coefficient for H2O in H2SO4</span>
+<span class="n">df1</span><span class="p">[</span><span class="s2">&quot;Molar_aH2O&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gamma_H2O</span> <span class="o">*</span> <span class="n">df1</span><span class="p">[</span><span class="s2">&quot;Molar_H2O&quot;</span><span class="p">]</span>
+
+<span class="n">display</span><span class="p">(</span><span class="n">df1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Ester</th>
+      <th>%H2SO4</th>
+      <th>kobs</th>
+      <th>X_H2SO4</th>
+      <th>H0</th>
+      <th>HS</th>
+      <th>log_k_obs</th>
+      <th>aH2O</th>
+      <th>Molar_H2O</th>
+      <th>Molar_aH2O</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>MeOAc</td>
+      <td>14.1</td>
+      <td>0.9000</td>
+      <td>0.029243</td>
+      <td>-0.602729</td>
+      <td>-0.373692</td>
+      <td>-0.045757</td>
+      <td>0.929672</td>
+      <td>52.274995</td>
+      <td>50.062576</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>MeOAc</td>
+      <td>20.7</td>
+      <td>1.5660</td>
+      <td>0.045716</td>
+      <td>-1.037527</td>
+      <td>-0.643266</td>
+      <td>0.194792</td>
+      <td>0.873362</td>
+      <td>50.455747</td>
+      <td>46.177140</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>MeOAc</td>
+      <td>28.3</td>
+      <td>2.5320</td>
+      <td>0.067544</td>
+      <td>-1.511469</td>
+      <td>-0.937111</td>
+      <td>0.403464</td>
+      <td>0.778090</td>
+      <td>48.018423</td>
+      <td>40.069105</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>MeOAc</td>
+      <td>34.8</td>
+      <td>3.8460</td>
+      <td>0.089215</td>
+      <td>-1.999334</td>
+      <td>-1.239587</td>
+      <td>0.585009</td>
+      <td>0.668753</td>
+      <td>45.583388</td>
+      <td>33.470084</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>MeOAc</td>
+      <td>40.4</td>
+      <td>4.8840</td>
+      <td>0.110638</td>
+      <td>-2.418862</td>
+      <td>-1.499694</td>
+      <td>0.688776</td>
+      <td>0.556825</td>
+      <td>43.253973</td>
+      <td>27.081094</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>MeOAc</td>
+      <td>45.4</td>
+      <td>6.2400</td>
+      <td>0.132397</td>
+      <td>-2.793058</td>
+      <td>-1.731696</td>
+      <td>0.795185</td>
+      <td>0.449579</td>
+      <td>40.993888</td>
+      <td>21.242417</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>MeOAc</td>
+      <td>50.2</td>
+      <td>6.8400</td>
+      <td>0.156117</td>
+      <td>-3.233884</td>
+      <td>-2.005008</td>
+      <td>0.835056</td>
+      <td>0.346582</td>
+      <td>38.654075</td>
+      <td>15.875174</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>MeOAc</td>
+      <td>55.2</td>
+      <td>7.9800</td>
+      <td>0.184424</td>
+      <td>-3.781791</td>
+      <td>-2.344711</td>
+      <td>0.902003</td>
+      <td>0.246168</td>
+      <td>36.027011</td>
+      <td>10.874154</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>MeOAc</td>
+      <td>60.4</td>
+      <td>8.2800</td>
+      <td>0.218701</td>
+      <td>-4.396537</td>
+      <td>-2.725853</td>
+      <td>0.918030</td>
+      <td>0.156455</td>
+      <td>33.060974</td>
+      <td>6.620468</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>MeOAc</td>
+      <td>65.2</td>
+      <td>7.1400</td>
+      <td>0.255866</td>
+      <td>-5.004720</td>
+      <td>-3.102926</td>
+      <td>0.853698</td>
+      <td>0.091126</td>
+      <td>30.074416</td>
+      <td>3.682898</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>MeOAc</td>
+      <td>70.4</td>
+      <td>4.3500</td>
+      <td>0.303858</td>
+      <td>-5.729420</td>
+      <td>-3.552240</td>
+      <td>0.638489</td>
+      <td>0.042647</td>
+      <td>26.560381</td>
+      <td>1.627133</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>MeOAc</td>
+      <td>74.1</td>
+      <td>2.2980</td>
+      <td>0.344289</td>
+      <td>-6.259991</td>
+      <td>-3.881195</td>
+      <td>0.361350</td>
+      <td>0.021652</td>
+      <td>23.865767</td>
+      <td>0.788045</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>MeOAc</td>
+      <td>80.0</td>
+      <td>0.5586</td>
+      <td>0.423330</td>
+      <td>-7.164457</td>
+      <td>-4.441963</td>
+      <td>-0.252899</td>
+      <td>0.005375</td>
+      <td>19.192045</td>
+      <td>0.178879</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>MeOAc</td>
+      <td>89.7</td>
+      <td>0.4320</td>
+      <td>0.615127</td>
+      <td>-8.716624</td>
+      <td>-5.404307</td>
+      <td>-0.364516</td>
+      <td>0.000209</td>
+      <td>10.373494</td>
+      <td>0.005646</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>MeOAc</td>
+      <td>95.0</td>
+      <td>0.8280</td>
+      <td>0.777131</td>
+      <td>-9.626847</td>
+      <td>-5.968645</td>
+      <td>-0.081970</td>
+      <td>0.000019</td>
+      <td>5.092689</td>
+      <td>0.000426</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>MeOAc</td>
+      <td>98.6</td>
+      <td>0.8640</td>
+      <td>0.928188</td>
+      <td>-10.331163</td>
+      <td>-6.405321</td>
+      <td>-0.063486</td>
+      <td>0.000001</td>
+      <td>1.426620</td>
+      <td>0.000024</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Data_File_Name</span> <span class="o">=</span> <span class="s2">&quot;02_H0_H2SO4_Tickle_1970.csv&quot;</span>
+<span class="n">Filename</span> <span class="o">=</span> <span class="n">github_location</span> <span class="o">+</span> <span class="n">Data_File_Name</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">Filename</span><span class="p">,</span> 
+                 <span class="n">delimiter</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span><span class="p">,</span> 
+                 <span class="n">skipinitialspace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+                 <span class="n">comment</span> <span class="o">=</span> <span class="s2">&quot;#&quot;</span><span class="p">)</span> 
+<span class="n">df_sorted</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;H0&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span> <span class="c1"># interpolator required x-axis to be accending in order to work</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;%H2SO4&quot;</span><span class="p">]</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;H0&quot;</span><span class="p">]</span>
+
+<span class="n">interpolation</span> <span class="o">=</span> <span class="n">make_smoothing_spline</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span>      <span class="c1">### The x and y data</span>
+                                      <span class="n">w</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>    <span class="c1">### A list of weights for each point (default = None)</span>
+                                      <span class="n">lam</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>   <span class="c1">### A factor for the degree of smoothing. Change this to change the smoothness.</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">13</span><span class="p">],</span> <span class="n">line</span> <span class="mi">8</span>
+    <span class="n">df_sorted</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;H0&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span> <span class="c1"># interpolator required x-axis to be accending in order to work</span>
+                                                         <span class="o">^</span>
+<span class="ne">SyntaxError</span>: invalid syntax
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-digitize-plot">Step 1: Digitize Plot.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-data">Comparing Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibliography">Bibliography</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Barry Linkletter
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

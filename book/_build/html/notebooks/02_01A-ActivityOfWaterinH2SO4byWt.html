@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Activity of water (\(a_{H_2O}\)) vs. \(X_{H_2SO_4}\) &#8212; Ester Hydrolysis under Strong Acid Catalysis</title>
+    <title>Activity of water (\(a_{H_2O}\)) vs. \(\% H_2SO_4\) &#8212; Ester Hydrolysis under Strong Acid Catalysis</title>
   
   
   
@@ -184,6 +184,7 @@
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../01_Yates1967.html">Discussion of Yates &amp; McClellan, 1967</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02_interpolating.html">Interpolating Literature Data Sets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03_DataQuest.html">Searching For Data</a></li>
 </ul>
 
     </div>
@@ -335,7 +336,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Activity of water (a_{H_2O}) vs. X_{H_2SO_4}</h1>
+    <h1>Activity of water (a_{H_2O}) vs. \% H_2SO_4</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -349,8 +350,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="activity-of-water-a-h-2o-vs-x-h-2so-4">
-<h1>Activity of water (<span class="math notranslate nohighlight">\(a_{H_2O}\)</span>) vs. <span class="math notranslate nohighlight">\(X_{H_2SO_4}\)</span><a class="headerlink" href="#activity-of-water-a-h-2o-vs-x-h-2so-4" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="activity-of-water-a-h-2o-vs-h-2so-4">
+<h1>Activity of water (<span class="math notranslate nohighlight">\(a_{H_2O}\)</span>) vs. <span class="math notranslate nohighlight">\(\% H_2SO_4\)</span><a class="headerlink" href="#activity-of-water-a-h-2o-vs-h-2so-4" title="Permalink to this heading">#</a></h1>
 <p>In this notebook we will plot activity of water vs <span class="math notranslate nohighlight">\(H_2SO_4\)</span> concentration (%wt) and (\mol fraction). It will create interpolation functions that can be used to convert %wt, mol fraction, moles/L and molality (moles/Kg of H2O).</p>
 <p>The activity data is from “The Thermodynamic Properties of Aqueous Sulfuric Acid Solutions and Hydrates from 15 to 300°K.” W. F. Giauque, E. W. Hornung, J. E. Kunzler, and T. R. Rubin, <em>J. Am. Chem. Soc.</em>, <strong>1960</strong>, <em>82</em>, 62-70. <a class="reference external" href="https://doi.org/10.1021/ja01486a014">https://doi.org/10.1021/ja01486a014</a></p>
 <p>Note: The water activity is for its activity as a material. In its standard state <span class="math notranslate nohighlight">\(a_{H_2O} = 1\)</span>. As impurities are added this will reduce. The value is actually the “effective mole fraction” of water. i.e. it behaves as the mole fraction <span class="math notranslate nohighlight">\(a_{H_2O}\)</span> compared to pure water.</p>
@@ -390,6 +391,7 @@ document.write(`
 <span class="n">github_location</span> <span class="o">=</span> <span class="s2">&quot;./data/&quot;</span>
 <span class="n">github_H0_location</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/blinkletter/4410PythonNotebooks/main/Class_08/data/H0_data/&quot;</span>
 <span class="n">github_location_styles</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/blinkletter/LFER-QSAR/main/styles/&quot;</span>
+<span class="n">github_location_styles</span> <span class="o">=</span> <span class="s2">&quot;./styles/&quot;</span>
 <span class="n">github_location_LFER_tables</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/blinkletter/LFER-QSAR/main/data/&quot;</span>
 
 <span class="n">molwtH2SO4</span> <span class="o">=</span> <span class="mf">98.08</span>

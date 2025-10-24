@@ -64,6 +64,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = '02_interpolating';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Searching For Data" href="03_DataQuest.html" />
     <link rel="prev" title="Discussion of Yates &amp; McClellan, 1967" href="01_Yates1967.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -183,6 +184,7 @@
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="01_Yates1967.html">Discussion of Yates &amp; McClellan, 1967</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Interpolating Literature Data Sets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03_DataQuest.html">Searching For Data</a></li>
 </ul>
 
     </div>
@@ -372,6 +374,17 @@ document.write(`
 <li><p>Figure 3: Plot of data for density vs %wt <span class="math notranslate nohighlight">\({H_2SO_4}\)</span> with interpolation line; plot of %differential between data and interpolation.</p></li>
 </ul>
 </li>
+<li><p><a class="reference internal" href="notebooks/02_interpolators_check.html"><span class="std std-doc">Early Work</span></a> - Some scratch work will I was poking around with the tools. Archived here so that I can reuse the code if needed.</p></li>
+</ul>
+<p>The following notebooks are purpose-built to provide interpolated values from valrious data sets.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="notebooks/02_01A-ActivityOfWaterinH2SO4byWt.html"><span class="std std-doc"><span class="math notranslate nohighlight">\(a_{H_2O}\)</span> vs <span class="math notranslate nohighlight">\(\%{H_2SO_4}\)</span></span></a> - An interpolator that will estimate the value of <span class="math notranslate nohighlight">\(a_{H_2O}\)</span> when given <span class="math notranslate nohighlight">\(%H_2SO_4\)</span>.</p></li>
+<li><p><a class="reference internal" href="notebooks/02_01B-ActivityOfWaterinH2SO4byX.html"><span class="std std-doc"><span class="math notranslate nohighlight">\(a_{H_2O}\)</span> vs mole fraction <span class="math notranslate nohighlight">\(H_2SO_4\)</span></span></a> - An interpolator that will estimate the value of <span class="math notranslate nohighlight">\(a_{H_2O}\)</span> when given the mole fraction of <span class="math notranslate nohighlight">\(H_2SO_4\)</span>.</p></li>
+<li><p><a class="reference internal" href="notebooks/02_02_H2SO4_PercentWt_to_H0.html"><span class="std std-doc">Plots of <span class="math notranslate nohighlight">\(H_0\)</span> vs <span class="math notranslate nohighlight">\(\%{H_2SO_4}\)</span></span></a> - various data tables for <span class="math notranslate nohighlight">\(H_0\)</span> vs <span class="math notranslate nohighlight">\(\%H_2SO_4\)</span> are compared.</p></li>
+<li><p><a class="reference internal" href="notebooks/02_03_H2SO4_Percent_Density_Molarity.html"><span class="std std-doc">Density vs <span class="math notranslate nohighlight">\(\%H_2SO_4\)</span></span></a> - Interpolations of a date set for density vs <span class="math notranslate nohighlight">\(\%H_2SO_4\)</span> and a plot of molarity of <span class="math notranslate nohighlight">\(H_2SO_4\)</span> vs <span class="math notranslate nohighlight">\(\%\)</span></p></li>
+<li><p><a class="reference internal" href="notebooks/02_03_H2SO4_PercentWt_to_MolarConc.html"><span class="std std-doc">Molarity from <span class="math notranslate nohighlight">\(\%H_2SO_4\)</span></span></a> - More examples of calulating molarity from <span class="math notranslate nohighlight">\(\%H_2SO_4\)</span>. Includes use of “patches” to draw rectangles on plots.</p></li>
+<li><p><a class="reference internal" href="notebooks/02_04_Cook_1975_HR_Values_Smooth.html"><span class="std std-doc"><span class="math notranslate nohighlight">\(H_R\)</span> values</span></a> - interpolations of density and molarity from <span class="math notranslate nohighlight">\(\%H_2SO_4\)</span>. Interpolation of <span class="math notranslate nohighlight">\(H_R\)</span> values.</p></li>
+<li><p><a class="reference internal" href="notebooks/02_04_H0_HR_Comparison.html"><span class="std std-doc"><span class="math notranslate nohighlight">\(H_R\)</span> and <span class="math notranslate nohighlight">\(H_0\)</span></span></a> - Plots comparing acidity functions <span class="math notranslate nohighlight">\(H_R\)</span> and <span class="math notranslate nohighlight">\(H_0\)</span></p></li>
 </ul>
 </section>
 </section>
@@ -414,6 +427,15 @@ document.write(`
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Discussion of Yates &amp; McClellan, 1967</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="03_DataQuest.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Searching For Data</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>

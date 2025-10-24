@@ -14,7 +14,12 @@ This paper presents a complicated relationship between reactivity and acidity. I
 
 ### [Interpolating Data](02_interpolating.md)
 
-I wanted to analyze the data using data sets for $H_0$ and $a_{H_2O}$ from sources other that the values reported in Yates \& McClellan, 1967. If the values in a data set did not align with those used by the authors we will need to use interpolation to estimate the values in the spaces between data points. [This page](02_interpolating.md) presents my efforts to understand the interpolation tools availabe in *Python*. 
+I wanted to analyze the data using data sets for $H_0$ and $a_{H_2O}$ from sources other that the values reported in Yates \& McClellan, 1967. If the values in a data set did not align with those used by the authors then we will need to use interpolation to estimate the values in the spaces between data points. [This page](02_interpolating.md) presents my efforts to understand the interpolation tools availabe in *Python*. 
+
+### [Searching For Data](03_DataQuest.md)
+
+The paper by Yates and McClellan presents some data in its plots that are not present in the tables. The authors present data for ethyl acetate that is references in another paper. The experimental results for methyl acetate hydrolysis are missing three points that appear in the plots but not in the table of experimental data. [This page](03_DataQuest.md) presents an account of my efforts to obtain the data that was left out of the paper.
+
 
 
 
