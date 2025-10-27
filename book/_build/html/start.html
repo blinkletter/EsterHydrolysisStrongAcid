@@ -186,6 +186,7 @@
 <li class="toctree-l1"><a class="reference internal" href="01_Yates1967.html">Discussion of Yates &amp; McClellan, 1967</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_interpolating.html">Interpolating Literature Data Sets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03_DataQuest.html">Searching For Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04_ModelsForaH2O.html">Models for <span class="math notranslate nohighlight">\(a_{H_2O}\)</span> and More</a></li>
 </ul>
 
     </div>
@@ -353,6 +354,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-of-yates-mcclellan-1967"><span class="xref myst">Discussion of Yates &amp; McClellan, 1967</span></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interpolating-data"><span class="xref myst">Interpolating Data</span></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#searching-for-data"><span class="xref myst">Searching For Data</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polynomial-models-for-a-h-2o-and-more"><span class="xref myst">Polynomial Models for <span class="math notranslate nohighlight">\(a_{H_2O}\)</span> and more</span></a></li>
 </ul>
 </li>
 </ul>
@@ -371,11 +373,11 @@ document.write(`
 <p>As we explore physical organic chemistry we can investigate seemingly simple reactions and observe surprising complexity. This webbook is a collection of documents and data analysis exploring the acid hydrolysis of esters. There are several possible mechanisms that can consume the starting material depending on the structure of the ester and the strength of the acidic conditions. We will be considering acid mixtures far beyond where the pH scale has meaning. Lets get extreme, together.</p>
 <section id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Permalink to this heading">#</a></h2>
-<p>I wrote a series of explorations of my ideas and work.</p>
+<p>I wrote a series of explorations of my ideas and work so that I could easily return to my thoughts after setting this aside for any amount of time.</p>
 <section id="discussion-of-yates-mcclellan-1967">
 <h3><a class="reference internal" href="01_Yates1967.html"><span class="std std-doc">Discussion of Yates &amp; McClellan, 1967</span></a><a class="headerlink" href="#discussion-of-yates-mcclellan-1967" title="Permalink to this heading">#</a></h3>
 <p>I first began this line of thought after reading “Mechanisms of ester hydrolysis in aqueous sulfuric acids.” K. Yates, R.A. McClelland, <em>J. Am. Chem. Soc.</em>, <strong>1967</strong>, <em>89</em>, 2686-2692. <a class="reference external" href="https://doi.org/10.1021/ja00987a033">https://doi.org/10.1021/ja00987a033</a></p>
-<p>This paper presents a complicated relationship between reactivity and acidity. It also provides evidence supporting an idea that ester hydrolysis is second-order in water. I worked through the data in the paper and present an analysis of the results for methyl acetate in the <a class="reference internal" href="01_Yates1967.html"><span class="std std-doc">documents presented in this page</span></a>.</p>
+<p>This paper presents a complicated relationship between reactivity and acidity. It also provides evidence supporting an idea that ester hydrolysis is second-order in water. I worked through the data in the paper and present an analysis of the results for methyl acetate in the <a class="reference internal" href="01_Yates1967.html"><span class="std std-doc">documents presented in this page</span></a>. The <em>Python</em> notebooks can easily be changed to explore the results of the other esters presented in this paper.</p>
 </section>
 <section id="interpolating-data">
 <h3><a class="reference internal" href="02_interpolating.html"><span class="std std-doc">Interpolating Data</span></a><a class="headerlink" href="#interpolating-data" title="Permalink to this heading">#</a></h3>
@@ -383,7 +385,11 @@ document.write(`
 </section>
 <section id="searching-for-data">
 <h3><a class="reference internal" href="03_DataQuest.html"><span class="std std-doc">Searching For Data</span></a><a class="headerlink" href="#searching-for-data" title="Permalink to this heading">#</a></h3>
-<p>The paper by Yates and McClellan presents some data in its plots that are not present in the tables. The authors present data for ethyl acetate that is references in another paper. The experimental results for methyl acetate hydrolysis are missing three points that appear in the plots but not in the table of experimental data. <a class="reference internal" href="03_DataQuest.html"><span class="std std-doc">This page</span></a> presents an account of my efforts to obtain the data that was left out of the paper.</p>
+<p>The paper by Yates and McClellan presents some data in its plots that are not present in the tables. The authors present data for ethyl acetate that is from another paper. The experimental results for methyl acetate hydrolysis are missing three points that appear in the plots but not in the table of experimental data. <a class="reference internal" href="03_DataQuest.html"><span class="std std-doc">This page</span></a> presents an account of my efforts to obtain the data that was left out of the paper.</p>
+</section>
+<section id="polynomial-models-for-a-h-2o-and-more">
+<h3><a class="reference internal" href="04_ModelsForaH2O.html"><span class="std std-doc">Polynomial Models for <span class="math notranslate nohighlight">\(a_{H_2O}\)</span> and more</span></a><a class="headerlink" href="#polynomial-models-for-a-h-2o-and-more" title="Permalink to this heading">#</a></h3>
+<p>There are many empirical mathematical models available in the literature for predicting values of density, water activity and acidity of water/acid mixtures. Most of the data tables that I have used so far are the output of these models, not experimental data. To further understand this approach I attempted to use some literature models and compare that to simple polynomial fits through the data. In the end, the best way to use the data tables was concluded to be using a spline interpolation of the data tables. <a class="reference internal" href="04_ModelsForaH2O.html"><span class="std std-doc">This page</span></a> presents my own attempts at modelling the data with the accompanying plots and figures.</p>
 </section>
 </section>
 <div class="toctree-wrapper compound">
@@ -449,6 +455,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-of-yates-mcclellan-1967"><span class="xref myst">Discussion of Yates &amp; McClellan, 1967</span></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interpolating-data"><span class="xref myst">Interpolating Data</span></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#searching-for-data"><span class="xref myst">Searching For Data</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polynomial-models-for-a-h-2o-and-more"><span class="xref myst">Polynomial Models for <span class="math notranslate nohighlight">\(a_{H_2O}\)</span> and more</span></a></li>
 </ul>
 </li>
 </ul>

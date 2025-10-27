@@ -1,7 +1,7 @@
 %![PhyOrg](PhysOrg.png)
 # Interpolating Literature Data Sets
 
-I wanted to analyze the data using data sets for $H_0$ and $a_{H_2O} from sources other that the values reported in Yates \& McClellan, 1967. If the values in a data set did not align with those used by the authors we will need to use interpolation to estimate the values in the spaces between data points.  
+I wanted to analyze the data using data sets for $H_0$ and $a_{H_2O} from sources other that the values reported in Yates \& McClellan, 1967. If the values in a data set did not align with those used by the authors, we will need to use interpolation to estimate the values in the spaces between data points.  
 
 ## Table of Contents
 
