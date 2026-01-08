@@ -154,6 +154,8 @@ The data points from Table~1 of the Yates paper and the digitized points are sho
 
 \centering
     \begin{tabular}{SSSS}
+    \multicolumn{2}{c}{Table~1 of paper} & \multicolumn{2}{c}{Figure~1 Digitized} \\
+    \cmidrule(r){1-2}\cmidrule(l){3-4}
 %        \toprule
         {\%\ce{H2SO4} } & {$k_{obs}$}     & {\%\ce{H2SO4} } & {$k_{obs}$}  \\
         \midrule
@@ -174,8 +176,10 @@ The data points from Table~1 of the Yates paper and the digitized points are sho
       &                    &    \textbf{95.69}   &     \textbf{1.38}     \\
       &                    &    \textbf{99.13}   &     \textbf{1.44}     \\
 %        \bottomrule
-    \end{tabular} \label{tab:tab1}
+    \end{tabular} \label{tab:tab1}\vspace{-5mm}
 \end{table}
+
+
 
 
 \begin{figure}[h!]
@@ -183,7 +187,7 @@ The data points from Table~1 of the Yates paper and the digitized points are sho
   \centering
   \includegraphics[scale=0.7]{images/plot1}
   \caption[][15mm]{Plot of data reported in Table~1 (black circles) and data digitized from Figure~1 (red circles) from Yates, 1967 for methyl acetate hydrolysis.\tss{\ref{ref:ref1}}   \\  $\longleftarrow$ \vspace{3mm}}
-  \label{fig:fig2}
+  \label{fig:fig2}\vspace{-5mm}
 \end{figure}
 
 \begin{marginfigure}[-60mm]
@@ -195,11 +199,11 @@ The data points from Table~1 of the Yates paper and the digitized points are sho
 
 \subsection{Correcting the Data Set}
 
-Given the mean differential for the \%\ce{H2SO4} it was decided to correct the digitized data by the value of 0.37. This brought the value of \%\ce{H2SO4} to the same values as used for the data series for isopropyl acetate. This increases my confidence that I made the right choice. The single large differential observed for the point at \qty{60}{\percent}  \ce{H2SO4} is more difficult to interpret. the difference between the reported value and the value in the plot is about $-0.26$. If the value reported in the table for $k_{obs}$ was 13.6 instead of 13.8 then we would be close to the digitized value. The numerals 6 and 8 are easily confused when converting data from the notebook to a typeset document. Could the lab have operated with a value of 13.6 is all their calculations but the typesetting erroneously switched it to 13.8? Does this theory justify using a value of 13.6 instead of the reported value? I will keep the reported value but stay aware of this discrepancy.
+Given the mean differential for the \%\ce{H2SO4} it was decided to correct the digitized data by the value of 0.37. This brought the value of \%\ce{H2SO4} to the same values as used for the data series for isopropyl acetate. This increases my confidence that I made the right choice. The single large differential observed for the point at \qty{60}{\percent}  \ce{H2SO4} is more difficult to interpret. the difference between the reported value and the value in the plot is about $-0.26$. If the value reported in the table for $k_{obs}$ was 13.6 instead of 13.8 then we would be close to the digitized value. The numerals 6 and 8 are easily confused when converting data from the notebook to a typeset document. Could the lab have operated with a value of 13.6 in all their calculations but the typesetting erroneously switched it to 13.8? Does this theory justify using a value of 13.6 instead of the reported value? I will keep the reported value but stay aware of this discrepancy.
 
 \section{The Data for Ethyl Acetate}
 
-Yates and McClelland discuss results for ethyl acetate hydrolysis and include the values in the plots and data analysis. But they do not provide the data in table~1 of the paper.\tss{\ref{ref:ref1}} The reference older work and send the reader searching for that data.\sidenote[][-15mm]{``The Possibility of a Cyclic Mechanism for Acid-Catalyzed Ester Hydrolysis.'' C.A. Lane, M.F. Cheung, G.F. Dorsey, \textit{J. Am. Chem. Soc.}, \textbf{1968}, \textit{90}, 6492–6494. \url{https://doi.org/10.1021/ja01025a046}.\label{ref:lane} \vspace{2mm}}\tss{,}\sidenote[][0mm]{``The Kinetics of Ester Hydrolysis in Concentrated Aqueous Acids.'' R.P. Bell, A.L. Dowding, J.A. Noble,  \textit{J. Chem. Soc.}, \textbf{1955}, 3106–3110. \url{https://doi.org/10.1039/JR9550003106}\label{ref:bell}\vspace{2mm}}\tss{,}\sidenote{``The Hydrolysis of Ethyl Acetate in Concentrated Aqueous Sulphuric Acid.'' D. Jaques,  \textit{J. Chem. Soc.} \textbf{1965}, 3854–3904. \url{https://doi.org/10.1039/JR9650003854} \label{ref:jaques}. For a good introduction to the math used to interpret the data see ``Hydrolysis of Ethyl Acetate in Concentrated Sulfuric Acid. A Group Experiment for Advanced Students.'' D. Jaques, \textit{J. Chem. Educ.}, \textbf{1971}, \textit{48}, 623-625. \url{https://doi.org/10.1021/ed048p623}.\vspace{2mm}} So off I go.
+Yates and McClelland discuss results for ethyl acetate hydrolysis and include the values in the plots and data analysis. But they do not provide the data in table~1 of the paper.\tss{\ref{ref:ref1}} They reference older work and send the reader searching for that data.\sidenote[][-15mm]{``The Possibility of a Cyclic Mechanism for Acid-Catalyzed Ester Hydrolysis.'' C.A. Lane, M.F. Cheung, G.F. Dorsey, \textit{J. Am. Chem. Soc.}, \textbf{1968}, \textit{90}, 6492–6494. \url{https://doi.org/10.1021/ja01025a046}.\label{ref:lane} \vspace{2mm}}\tss{,}\sidenote[][0mm]{``The Kinetics of Ester Hydrolysis in Concentrated Aqueous Acids.'' R.P. Bell, A.L. Dowding, J.A. Noble,  \textit{J. Chem. Soc.}, \textbf{1955}, 3106–3110. \url{https://doi.org/10.1039/JR9550003106}\label{ref:bell}\vspace{2mm}}\tss{,}\sidenote{``The Hydrolysis of Ethyl Acetate in Concentrated Aqueous Sulphuric Acid.'' D. Jaques,  \textit{J. Chem. Soc.} \textbf{1965}, 3854–3904. \url{https://doi.org/10.1039/JR9650003854} \label{ref:jaques}. For a good introduction to the math used to interpret the data see ``Hydrolysis of Ethyl Acetate in Concentrated Sulfuric Acid. A Group Experiment for Advanced Students.'' D. Jaques, \textit{J. Chem. Educ.}, \textbf{1971}, \textit{48}, 623-625. \url{https://doi.org/10.1021/ed048p623}.\vspace{2mm}} So off I go.
 
 \subsection{Lane et al., 1968\tss{\ref{ref:lane}}}
 
@@ -228,7 +232,7 @@ This data set presents literature data from Bell et al., 1955\tss{\ref{ref:bell}
 
 
 
-You can see that about half of the data presented by Lane was from previous work by Bell et al., 1955\tss{\ref{ref:bell}}. The data from Bell is presented in Figure~\vref{fig:belldata}. You can see that it does not include any information about , $a_{H_2O}$, $\nicefrac{[BH]}{[BH^+]}$, or $k_{BH^+}$. These values would have been calculated by lane using the available data, some of which was likely communicated privately. Also note that the concentrations of sulphuric acid are reported in Molar, not \%\ce{H2SO4} and the $H_0$ values differ slightly. Lane would have converted molarity to \%\ce{H2SO4} and used more recent data for the $H_0$ values of sulphuric acid mixtures, specifically the values reported by Jorgenson in 1963 (see reference 8 in Lane\tss{\ref{ref:lane}}). Speaking of more modern values, I used the tables in the 105\tss{th} edition of the CRC handbook to convert Bell's molar concentration value to \% mass and obtained very similar values to those reported by Lane. Figure~\vref{fig:belldatadiff} presents a plot of these differences. You can see that the differences are small, but systematic. This reflects the small difference in the data tables between 1960 and 2025.
+You can see that about half of the data presented by Lane was from previous work by Bell et al., 1955\tss{\ref{ref:bell}}. The data from Bell is presented in Figure~\vref{fig:belldata}. You can see that it does not include any information about , $a_{H_2O}$, $\nicefrac{[BH]}{[BH^+]}$, or $k_{BH^+}$. These values would have been calculated by Lane using the available data, some of which was likely communicated privately. Also note that the concentrations of sulphuric acid are reported in Molar, not \%\ce{H2SO4} and the $H_0$ values differ slightly. Lane would have converted molarity to \%\ce{H2SO4} and used more recent data for the $H_0$ values of sulphuric acid mixtures, specifically the values reported by Jorgenson in 1963 (see reference 8 in Lane\tss{\ref{ref:lane}}). Speaking of more modern values, I used the tables in the 105\tss{th} edition of the CRC handbook to convert Bell's molar concentration value to \% mass and obtained very similar values to those reported by Lane. Figure~\vref{fig:belldatadiff} presents a plot of these differences. You can see that the differences are small, but systematic. This reflects the small difference in the data tables between 1960 and 2025.
 
 
 \begin{figure}[h!]
