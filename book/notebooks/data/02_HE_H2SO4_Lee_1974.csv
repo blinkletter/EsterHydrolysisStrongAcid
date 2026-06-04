@@ -1,0 +1,20 @@
+### Data from table 3 of 
+###
+### "Basicity of Aliphatic Esters."
+### Lee, D. G.; Sadar, M. H.  J. Am. Chem. Soc. 1974, 96 (9), 2862–2867. 
+### https://doi.org/10.1021/ja00816a032.
+### 
+### Temp = 25.0 deg C
+### Concentrations in %wt H2SO4 
+###
+"%H2SO4",  "HE"
+60, -2.2
+65, -2.5
+70, -2.8
+75, -3.1
+80, -3.5
+85, -4.1
+90, -4.6
+95, -5.2
+98, -5.5
+
